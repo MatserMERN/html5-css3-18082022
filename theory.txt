@@ -27,8 +27,6 @@ Some of the elements will have no content and no end tag
 <hr> - Horizontal line with no content and no end tag
 <br> - Line break which is an Empty element
 
- 
-
 Features of HTML
 ----------------
 1. simple and easy to use
