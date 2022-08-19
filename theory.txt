@@ -171,11 +171,12 @@ table                          <a>
 p                              <button>
 div                            <sup>
 form                           <sub>
-video                          <textarea>
+                               <textarea>
 hr                             <label>                                               
 address                        <b>
 Header                        <strong>
 footer                        <img>
+                              video
 
 span - An inline element used to mark up a part of a text or part of a document
 

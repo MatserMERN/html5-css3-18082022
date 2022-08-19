@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML DOM</title>
+    <script defer src="app.js"></script>
+</head>
+<body>
+    <div id="header"></div>
+    <p class="one">This is para one</p>
+    <p class="one">This is para Two</p>
+    <h1 class="one">This is header one</h1>
+    
+    <script>
+        document.getElementById("header").innerText ="<h1>Hello World</h1>"
+        document.getElementById("header").innerHTML ="<h1>Hello World</h1>"
+  
+        document.getElementById("header").style.color="blue"
+        document.getElementById("header").style.backgroundColor="yellow"
+
+        document.getElementsByClassName("one")[2].style.backgroundColor="crimson"
+        document.getElementsByClassName("one")[2].style.color="white"
+    </script>
+</body>
+</html>

@@ -26,9 +26,70 @@
             </div>
             <br>
             <div>
-                <button class="btn btn-primary">Submit</button>
+                <label>Password</label>
+                <input type="password" class="form-control w-50">
+            </div>
+            <br>
+            <div>
+                <label>Comments</label>
+                <textarea class="form-control w-50" rows="5"></textarea>
+            </div>
+            <br>
+            <div>
+                <label>Subjects</label>&emsp;
+                <input type="checkbox" 
+                       class="form-check-input"
+                >&nbsp;Maths&emsp;
+                <input type="checkbox" class="form-check-input">&nbsp;Physics&emsp;
+                <input type="checkbox" class="form-check-input">&nbsp;Chemistry&emsp;
+            </div>
+            <br>
+            <div>
+                <label>Gender</label>&ensp;
+                <input type="radio" class="form-check-input" name="gender" > Female
+                <input type="radio" class="form-check-input" name="gender"> Male
+            </div>
+            <br>
+            <div>
+                <label>Country</label>
+                <select class="form-select w-50">
+                    <option value="0">Select</option>
+                    <option value="1">Bharat</option>
+                    <option value="2">Japan</option>
+                    <option value="3">Australia</option>
+                </select>
+                <br>
+                <select class="form-select w-50" multiple>
+                    <option value="0">Select</option>
+                    <option value="1">Bharat</option>
+                    <option value="2">Japan</option>
+                    <option value="3">Australia</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                Any File :  <input type="file"> <br><br>
+                PDF File :  <input type="file" accept=".pdf"> <br><br>
+                CSV File :  <input type="file" accept=".csv"> <br><br>
+                IMG File :  <input type="file" accept="image/*"> <br><br>
+            </div>
+
+            <div>
+                <input type="hidden" value="30">
+            </div>
+            <div>
+                <button class="btn btn-primary">Submit</button>&ensp;
+                <button type="button" class="btn btn-success">Click Me</button>&ensp;
+                <button type="reset" class="btn btn-warning">Reset</button>&ensp;
+                <br><br>
+                <input type="submit" value="Submit" class="btn btn-secondary">&ensp;
+                <input type="button" value="Click Me" class="btn btn-info">&ensp;
+                <input type="reset" value="Reset" class="btn btn-danger">&ensp;
+                <input type="image" src="../images/click.png" alt="Button Image">
             </div>
         </form>
+        <br><br><br><br>
+        <br><br><br><br>
     </div>
 </body>
 </html>
